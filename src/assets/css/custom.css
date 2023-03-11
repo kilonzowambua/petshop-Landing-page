@@ -1,0 +1,23 @@
+:root {
+    --primary-color: rgb(32, 31, 31);
+    --primary-color-highlight: #ff9a55;
+    --bs-body-bg: #f5f1ef;
+    --bs-font-family: "Montserrat", sans-serif;
+
+  }
+  html{
+     scroll-behavior: smooth;
+  }
+  .custom_btn{
+  display: inline-block;
+  background-color: #ff9a55;
+  color: #fff;
+  padding: 5px 10px;
+  text-align: center;
+ }
+
+ .navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+    color: #ff9a55;
+   }
+
