@@ -6,8 +6,10 @@ function Footer() {
 
 
   return (
-<h1 className="display-1">Footer position</h1>
 
+    <footer className="pt-5 my-5 text-muted border-top">
+    Created by Antony &middot; &copy; 2021
+  </footer>
   )
 }
 

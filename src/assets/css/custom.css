@@ -1,7 +1,6 @@
 :root {
     --primary-color: rgb(32, 31, 31);
     --primary-color-highlight: #ff9a55;
-    --bs-body-bg: #f5f1ef;
     --bs-font-family: "Montserrat", sans-serif;
 
   }
@@ -11,7 +10,7 @@
   .custom_btn{
   display: inline-block;
   background-color: #ff9a55;
-  color: #fff;
+  color: white;
   padding: 5px 10px;
   text-align: center;
  }
@@ -21,3 +20,8 @@
     color: #ff9a55;
    }
 
+   .img {
+    width: 70%;
+    height: 70%;
+    background-color: transparent;
+  }
