@@ -1,17 +1,20 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import Header from './Header'
-import Sections from './Sections'
-import Sections2 from './Sections2'
+import Hero from './Hero'
+import About_us from './About_us'
+import Services from './Services'
+import Contact_us from './Contact'
 import Footer from './Footer'
-import './assets/css/custom.css';
+import './assets/css/style.css'
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Header />
-    <Sections />
-    <Sections2 />
+    <Hero />
+    <About_us />
+    <Services />
     <Footer />
-
-  </React.StrictMode>,
+</React.StrictMode>,
 )

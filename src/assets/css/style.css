@@ -1,0 +1,196 @@
+
+/* Hero section styling */
+.hero-section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+  .hero-section img-fluid{
+    opacity: 1.5;
+  }
+  .hero-section .hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .hero-section h1 {
+    
+    font-size: 48px;
+    font-weight: bold;
+    color: rgb(5, 5, 5);
+    text-shadow: 2px 2px 4px rgba(22, 20, 20, 0.5);
+    margin-bottom: 30px;
+    margin-left: 40px;
+    font-family: 'Open Sans', sans-serif;
+   
+  }
+  
+  .hero-section p {
+    font-size: 24px;
+    color: rgb(3, 3, 3);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 50px;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    overflow: hidden; /* Hide the text initially */
+    border-right: .15em solid rgb(224, 223, 220); /* Create a blinking cursor effect */
+    white-space: nowrap; /* Prevent the text from wrapping */
+    font-size: 24px; /* Adjust the font size as needed */
+    font-weight: lighter; /* Add some boldness to the text */
+  
+    
+    /* Set up the animation */
+    animation: typing 3s steps(30, end) forwards;
+  }
+  /* Define the animation keyframes */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 120% }
+  }
+  .hero-section .btn-primary {
+    background-color: #4caf50;
+    border-color: #4caf50;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    border-radius: 50px;
+  }
+  
+  .hero-section .btn-primary:hover,
+  .hero-section .btn-primary:focus {
+    background-color: #fff;
+    border-color: #4caf50;
+    color: #4caf50;
+  }
+  /* About section styling */
+.about-section {
+
+    padding: 80px 0;
+  }
+  
+  .about-section h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 0;
+  }
+  
+  .about-section p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+  
+  .about-list {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  
+  .about-list li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .about-list li i {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 24px;
+    color: #4caf50;
+    line-height: 1;
+    width: 24px;
+    text-align: center;
+  }
+  
+  .about-section .btn-primary {
+    background-color: #4caf50;
+    border-color: #4caf50;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    border-radius: 50px;
+  }
+  
+  .about-section .btn-primary:hover,
+  .about-section .btn-primary:focus {
+    background-color: #fff;
+    border-color: #4caf50;
+    color: #4caf50;
+  }
+
+  .footer-section {
+      /* ff 3.6+ */
+      background:-moz-linear-gradient(90deg, rgba(87, 86, 81, 0.72) 0%, rgba(233, 160, 30, 1) 100%); 
+
+      /* safari 5.1+,chrome 10+ */
+      background:-webkit-linear-gradient(90deg, rgba(87, 86, 81, 0.72) 0%, rgba(233, 160, 30, 1) 100%);
+  
+      /* opera 11.10+ */
+      background:-o-linear-gradient(90deg, rgba(87, 86, 81, 0.72) 0%, rgba(233, 160, 30, 1) 100%);
+  
+      /* ie 6-9 */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E9A01E', endColorstr='#575651', GradientType=0 );
+  
+      /* ie 10+ */
+      background:-ms-linear-gradient(90deg, rgba(87, 86, 81, 0.72) 0%, rgba(233, 160, 30, 1) 100%);
+  
+      /* global 94%+ browsers support */
+      background:linear-gradient(90deg, rgba(87, 86, 81, 0.72) 0%, rgba(233, 160, 30, 1) 100%); 
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #333;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .service-card {
+    background-color: #f5f5f5;
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  .service-card h3 {
+    font-size: 36px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    color: #333;
+  }
+  
+  
+  
+ 
+  
+  
+
+  .footer-section a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .footer-section a:hover {
+    color: #666;
+  }
+  
+  .footer-section p {
+    margin-bottom: 20px;
+  }
+  
+  @media (min-width: 768px) {
+   .footer-section {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 30px;
+      text-align: left;
+    }
+  
+    .footer-section p {
+      margin: 0;
+    }
+  }
+  
